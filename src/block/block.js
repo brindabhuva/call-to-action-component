@@ -28,7 +28,7 @@ const { FormFileUpload, PanelBody, TextControl, TextareaControl  , PanelRow, But
  */
 registerBlockType( 'cgb/block-popup-component', {
 	// Block name. Block names must be string that contains a namespace prefix. Example: my-plugin/my-custom-block.
-	title: __( 'Call to Action' ), // Block title.
+	title: __( 'popup-component' ), // Block title.
 	icon: 'smiley', // Block icon from Dashicons → https://developer.wordpress.org/resource/dashicons/.
 	category: 'common', // Block category — Group blocks together based on common traits E.g. common, formatting, layout widgets, embed.
 	attributes:{
